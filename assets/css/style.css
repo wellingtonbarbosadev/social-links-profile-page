@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+#main {
+    margin: 10px;
+    padding: 20px;
+    max-width: 375px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.img img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.bio_area {
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bio_area h1 {
+    margin-top: 20px;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.851);
+}
+
+.bio_area h2 {
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    margin: 5px 0px 40px 0px;
+}
+
+.bio_area p {
+    color: rgba(255, 255, 255, 0.667);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    align-items: center;
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#buttons a {
+    transition: all 400ms;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 270px;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.851);
+}
+
+#buttons a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
